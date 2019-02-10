@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/appName"
+            android:textSize="@dimen/appName"
+            android:gravity="center"
+            android:typeface="serif"
+            android:layout_marginBottom="35dp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:srcCompat="@drawable/ic_github"
+            android:layout_marginBottom="35dp"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/account"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="text"
+            android:paddingLeft="0dp"
+            android:textColor="@color/inputsLoginTextColor"
+            android:textColorHint="#999" />
+
+        <EditText
+            android:id="@+id/etSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@mipmap/lock"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:paddingLeft="0dp"
+            android:textColor="@color/inputsLoginTextColor"
+            android:textColorHint="#999" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@color/btnAccess"
+            android:text="Entrar"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

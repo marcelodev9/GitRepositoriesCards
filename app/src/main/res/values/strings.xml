@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GitRepositoriesCards</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="text_txtResultSearch">Não foi encontrado nenhum repositório com o nome informado</string>
+</resources>

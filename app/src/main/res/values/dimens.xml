@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="repositore_name">22sp</dimen>
+    <dimen name="repositore_description">14sp</dimen>
+    <dimen name="repositore_url">14sp</dimen>
+    <dimen name="appName">25sp</dimen>
+</resources>
